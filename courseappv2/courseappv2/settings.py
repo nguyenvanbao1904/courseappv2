@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'courseapp.apps.CourseappConfig',
+    'rest_framework',
+    'drf_yasg',
     # 'ckeditor',
     # 'ckeditor_uploader'
 ]
