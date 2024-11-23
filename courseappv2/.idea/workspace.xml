@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a21e0e-0bd1-4369-b640-760f78b532f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/courseapp/paginators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/templates/admin/stats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/courseappv2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/courseappv2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courseappv2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseappv2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseappv2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseappv2/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2o0i78yQD7zv0SSbQXNDVJLuzlj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,10 +43,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/courseappv2/courseappv2",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/ProjectDjango/learnDjango/courseappv2/courseappv2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,8 +70,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730012723733</updated>
+      <workItem from="1731292020797" duration="2296000" />
+      <workItem from="1731404416163" duration="8000" />
+      <workItem from="1732005512820" duration="678000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

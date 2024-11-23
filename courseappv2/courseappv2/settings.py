@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'coursedb',
         'USER': 'root',
-        'PASSWORD': 'Admin@123',
+        'PASSWORD': '12345678',#Admin@123
         'HOST': '',
     }
 }

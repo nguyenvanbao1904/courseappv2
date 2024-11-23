@@ -15,7 +15,6 @@ class CourseSerializer(ModelSerializer):
     def get_image(self, course):
         if course.image.name.startswith("http"):
             return course.image.name
-
         request = self.context.get('request')
         if request:
             return request.build_absolute_uri('/static/%s' % course.image.name)
