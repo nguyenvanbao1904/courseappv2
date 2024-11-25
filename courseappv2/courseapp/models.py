@@ -1,17 +1,17 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-# Create your models here.
+from cloudinary.models import CloudinaryField
 
 
 class User(AbstractUser):
-    pass
+    avatar = CloudinaryField('image', blank=True, null=True)
 
 
 class Tag(models.Model):
     name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):
-        return self.name;
+        return self.name
 
 
 class Category(models.Model):
@@ -45,3 +45,16 @@ class Lesson(BaseModel):
     image = models.ImageField(upload_to="lesson/%Y/%m")
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     Tags = models.ManyToManyField(Tag, related_name='Lesson')
+
+class Interaction(models.Model):
+    class Meta:
+        abstract = True
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE)
+
+class Comment(Interaction):
+    content = models.TextField()
+
+class Like(Interaction):
+    class Meta:
+        unique_together = ('user', 'lesson')

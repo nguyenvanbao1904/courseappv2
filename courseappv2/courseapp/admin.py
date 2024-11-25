@@ -1,10 +1,11 @@
 from django.contrib import admin
+from django.contrib.auth.hashers import is_password_usable
 from django.db.models import Count
 from django.template.response import TemplateResponse
 from django.urls import path
 from django.utils.safestring import mark_safe
 
-from .models import Category, Lesson, Course, Tag
+from .models import Category, Lesson, Course, Tag, Comment, Like, User
 
 
 class CourseAdminSite(admin.AdminSite):
@@ -27,6 +28,11 @@ class CourseAdmin(admin.ModelAdmin):
             f'<img src = "/static/{course.image.name}" width = "120"/>'
         )
 
+class UserAdmin(admin.ModelAdmin):
+    def save_model(self, request, obj, form, change):
+        if obj.password:
+            obj.set_password(obj.password)
+        return obj.save()
 
 admin_site = CourseAdminSite()
 
@@ -34,3 +40,6 @@ admin_site.register(Category)
 admin_site.register(Lesson)
 admin_site.register(Course, CourseAdmin)
 admin_site.register(Tag)
+admin_site.register(Comment)
+admin_site.register(Like)
+admin_site.register(User, UserAdmin)

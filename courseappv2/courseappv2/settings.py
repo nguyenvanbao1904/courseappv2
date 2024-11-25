@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'courseapp.apps.CourseappConfig',
     'rest_framework',
     'drf_yasg',
+    'oauth2_provider',
+    'cloudinary',
     # 'ckeditor',
     # 'ckeditor_uploader'
 ]
@@ -131,3 +133,24 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#cho phep dang ky token bang json thay vi from data cua post
+OAUTH2_PROVIDER = { 'OAUTH2_BACKEND_CLASS': 'oauth2_provider.oauth2_backends.JSONOAuthLibCore' }
+
+REST_FRAMEWORK = {
+'DEFAULT_AUTHENTICATION_CLASSES': (
+'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
+)
+}
+
+CLIENT_ID = "e0w1cupRKEQMu0WoSDry9FR4iVdNlKQMjuldqpwY"
+CLIENT_SECRET = "VAwu6FViV2EatGOnHINn7hjflq7uAF6r0vWAnh1hgP7H8PPAWdthN7eO8nL4ylqVSVQt43ebVdmmY3ypqhlYeqK6pfhDMOlE8X2LIHUD5pggFJ9hpySzMI8BuXrjpmNX"
+
+import cloudinary
+cloudinary.config(
+    cloud_name = "dxcux00kk",
+    api_key = "251671149248596",
+    api_secret = "DnT4qIXRKdXBh5qtbh4Sh6qMVoo", # Click 'View API Keys' above to copy your API secret
+    secure=True
+)
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
