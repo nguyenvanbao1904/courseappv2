@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a21e0e-0bd1-4369-b640-760f78b532f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/courseappv2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/courseappv2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseappv2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseappv2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courseappv2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseappv2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProjectDjango/learnDjango/courseappv2/courseappv2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nguyenvanbao/CacCongNgheLapTrinhHienDai/courseappv2/courseappv2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,8 +84,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
-        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -112,6 +102,10 @@
       <workItem from="1732005512820" duration="678000" />
       <workItem from="1732429138125" duration="7503000" />
       <workItem from="1732436873704" duration="11250000" />
+      <workItem from="1732557788684" duration="265000" />
+      <workItem from="1732558061005" duration="506000" />
+      <workItem from="1732707746544" duration="26000" />
+      <workItem from="1732707773645" duration="123000" />
     </task>
     <servers />
   </component>
