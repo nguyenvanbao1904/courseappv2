@@ -1,4 +1,4 @@
-from django.urls import path, include, re_path
+from django.urls import include, re_path, path
 
 from courseapp.admin import admin_site
 from rest_framework import permissions
